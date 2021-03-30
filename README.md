@@ -16,7 +16,6 @@ $ pip install bs4
 $ pip install requests
 $ git clone https://github.com/ArroKM/smile-MBF
 $ cd smile-MBF
-$ python3 smile.py
 ```
 
 <h3>Usage</h3>
