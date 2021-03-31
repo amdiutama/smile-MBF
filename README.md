@@ -21,5 +21,5 @@ $ cd smile-MBF
 <h3>Usage</h3>
 
 ```
-$ python3 smile.py
+$ python3 main.py
 ```
