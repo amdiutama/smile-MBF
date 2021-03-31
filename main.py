@@ -20,7 +20,7 @@ class AseCx:
              try:
                   cookies = open('session/cookies.log').read().strip()
                   login, title, ip = data.login.smile(cookies).login()
-                  if login == True:
+                  if login:
                         data.run.menu(cookies).menuP()
                   else:
                         os.remove('session/cookies.log')
