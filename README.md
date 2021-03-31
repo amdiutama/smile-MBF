@@ -12,8 +12,8 @@ Jangan di pake om dosa :)
 $ apt update && apt upgrade
 $ apt install git
 $ apt install python
-$ pip install bs4
-$ pip install requests
+$ pip3 install bs4
+$ pip3 install requests
 $ git clone https://github.com/ArroKM/smile-MBF
 $ cd smile-MBF
 ```
