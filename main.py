@@ -30,7 +30,7 @@ class AseCx:
                   data.logo.banner()
                   cookies = input("\x1b[32;1m(\x1b[36;1m+\x1b[32;1m) \x1b[36;1mCOOKIES   \x1b[30;1m: \x1b[32;1m")
                   login, title, ip = data.login.smile(cookies).login()
-                  if login == True:
+                  if login:
                        try:
                             os.mkdir("result")
                        except: pass
