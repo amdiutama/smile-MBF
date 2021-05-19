@@ -13,7 +13,7 @@ except: pass
 def seting(use, cookies):
         fas = []
         con = 0
-        acak = random.choice(["sayang","Sayang123","doraemon","anjing123","bangsat"])
+        acak = random.choice(["sayang","indonesia","doraemon","rahasia","bangsat"])
         for i in range(len(use[0][0])):
             try:
                 sandi = use[0][1][con].split(" ")
